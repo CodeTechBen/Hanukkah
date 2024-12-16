@@ -23,4 +23,4 @@ def get_relevant_data(conn):
 if __name__ == "__main__":
     conn = connect('noahs.sqlite')
     customers = get_relevant_data(conn)
-    print(customers)``
+    print(customers)
