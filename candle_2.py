@@ -6,7 +6,8 @@ def get_relevant_data(conn):
     cur.execute("""
         SELECT DISTINCT
             c.name,
-            c.phone
+            c.phone,
+            c.citystatezip
         FROM 
             customers AS c
             JOIN orders AS o ON c.customerid = o.customerid
