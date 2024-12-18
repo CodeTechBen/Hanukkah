@@ -23,4 +23,4 @@ if __name__ == "__main__":
     
     customers = []
     for c in customer:
-        print(c[2])
+        print(type(c[2]))
